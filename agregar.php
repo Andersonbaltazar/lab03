@@ -1,3 +1,13 @@
+<?php
+
+function imprimir_vector_indexado($vector)
+{
+    for ($i =0; $i<count($vector);$i++)
+    {
+        echo 'Curso '.$i.' = '.$vector[$i].'<br>';
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
